@@ -1,3 +1,5 @@
+# this using for confidential data like whatever we are entering on terminal it is not shows.
+
 - name: variables from prompt
   hosts: web
   become: yes

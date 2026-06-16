@@ -1,0 +1,5 @@
+- name: ping the server # in ansible we difine list with "-"
+  hosts: # list of hosts your ansible wants to connet
+  tasks: # list of tasks /modules/collections
+  - name:
+    ansible.builtin.ping:

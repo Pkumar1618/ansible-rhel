@@ -10,7 +10,7 @@
     DURATION: "120HRS"
     TRAINER: "SHIVA"
     TIMINGS: "7AM TO 10AM"
-    
+
 # file level variables
   vars_files: # file level variables
     - vars_file.yaml
@@ -39,8 +39,10 @@
 
 
 
-# 1. variable arg
-# 2. prompt
-# 3. task level
-# 4. Play level
-# 5. file level
+# 1. prefarance command line / args
+# 2. task level
+# 3. file
+# 4. Prompt level
+# 5. play level
+# 6. inventory
+# 7. role based

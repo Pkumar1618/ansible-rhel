@@ -6,4 +6,10 @@
       name: nginx
       state: present # it means installed the package 
 
+  - name: nginx run
+    ansible.builtin.service: # it start the service
+      name: nginx
+      state: started
+
+
  

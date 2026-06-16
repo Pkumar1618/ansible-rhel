@@ -12,15 +12,15 @@
   vars_files: # file level variables
     - vars_file.yaml
 
-  vars_prompt: # prompt level variables
-  - name: COURSE
-    prompt: please enter the course name
-  - name: DURATION
-    prompt: please enabled the course Duration
-  - name: TIMINGS
-    prompt: please enter the course Timings
-  - name: TRAINER
-    prompt: please enter the Trainer name
+  # vars_prompt: # prompt level variables
+  # - name: COURSE
+  #   prompt: please enter the course name
+  # - name: DURATION
+  #   prompt: please enabled the course Duration
+  # - name: TIMINGS
+  #   prompt: please enter the course Timings
+  # - name: TRAINER
+  #   prompt: please enter the Trainer name
 
   tasks:
   - name: print the information

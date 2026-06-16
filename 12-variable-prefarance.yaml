@@ -6,7 +6,7 @@
 
 # play level, all tasks should be access to it
   vars:  # play level, all tasks should be access to it
-    COURSE: "DevOps with AWS"
+    COURSE: "DevOps with AWS with playlevel"
     DURATION: "120HRS"
     TRAINER: "SHIVA"
     TIMINGS: "7AM TO 10AM"
@@ -17,7 +17,7 @@
 
 # prompt level variables
   vars_prompt: # prompt level variables
-  - name: COURSE
+  - name: COURSE 
     prompt: please enter the course name
   - name: DURATION
     prompt: please enabled the course Duration
@@ -30,7 +30,7 @@
   tasks:
   - name: print the information
     vars: # variable from task level
-      COURSE: "DevOps with AWS"
+      COURSE: "DevOps with AWS task level"
       DURATION: "120HRS"
       TRAINER: "SHIVA"
       TIMINGS: "7AM TO 10AM"

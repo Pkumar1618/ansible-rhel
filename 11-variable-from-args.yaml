@@ -1,0 +1,9 @@
+# here we can pass the variables through args
+
+- name: variables from args
+  hosts: web
+  become: yes
+  tasks:
+  - name: print the information
+    ansible.builtin.debug:
+      msg: "Hello {{ NAME }}, Good {{ GREETINGS }}"

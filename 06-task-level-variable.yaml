@@ -21,4 +21,4 @@
     vars:
       COURSE: "Jenkins"
     ansible.builtin.debug:
-      mgs: "Hi, I am learning {{ COURSE }}"
+      msg: "Hi, I am learning {{ COURSE }}"

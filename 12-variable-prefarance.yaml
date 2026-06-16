@@ -1,5 +1,6 @@
 - name: variables to print
   hosts: web
+  become: yes
   vars:  # play level, all tasks should be access to it
     COURSE: "DevOps with AWS"
     DURATION: "120HRS"
@@ -9,6 +10,10 @@
 - name: print course information
   vars_files: # file level variables
     - vars_file.yaml
+    
+- name: variables from args
+  hosts: web
+  become: yes
 
   vars_prompt: # prompt level variables
   - name: COURSE

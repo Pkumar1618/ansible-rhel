@@ -4,9 +4,8 @@
     COURSE: "DevOps with AWS"
     DURATION: "120HRS"
     TRAINER: "SHIVA"
-    TIMINGS: "7AM TO 10AM"
-    
+    TIMINGS: "7AM TO 10AM"   
   tasks:
   - name: print the information
     ansible.builtin.debug:
-      msg "Hi, I am learing {{COURSE}}, Duration is:{{DURATION}}, Trainer is:{{SHIVA}}, Timings is:{{TIMINGS}}"
+      msg "Hi, I am learing is {{COURSE}}, Duration is {{DURATION}}, Trainer is {{SHIVA}}, Timings is {{TIMINGS}}"

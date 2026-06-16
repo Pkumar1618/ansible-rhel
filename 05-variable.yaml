@@ -1,6 +1,5 @@
 - name: Using varibales
   hosts: web
-  become: yes
   vars:
     COURSE: "DevOps with AWS"
     DURATION: "120HRS"

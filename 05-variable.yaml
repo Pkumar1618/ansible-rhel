@@ -1,0 +1,12 @@
+- name: Using varibales
+  hosts: web
+  become: yes
+  vars:
+    COURSE: "DevOps with AWS"
+    DURATION: "120HRS"
+    TRAINER: "SHIVA"
+    TIMINGS: "7AM TO 10AM"
+  tasks:
+  - name: print the information
+    ansible.builtin.debug:
+      msg "Hi, I am learing {{COURSE}}, Duration is:{{DURATION}}, Trainer is:{{SHIVA}}, Timings is:{{TIMINGS}}"

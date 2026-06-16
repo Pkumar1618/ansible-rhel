@@ -1,4 +1,4 @@
-- name: Using varibales
+- name: variables to print
   hosts: web
   vars:
     COURSE: "DevOps with AWS"

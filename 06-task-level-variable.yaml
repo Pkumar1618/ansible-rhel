@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: print the information
-    vars:
+    vars: # this is task level variables.
       COURSE: "DevOps with AWS"
       DURATION: "120HRS"
       TRAINER: "SHIVA"

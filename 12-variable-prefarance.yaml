@@ -1,3 +1,5 @@
+# using this file checking variable passing through multiple ways but ansible prefering which is first
+
 - name: variables to print
   hosts: web
   become: yes
@@ -7,13 +9,8 @@
     TRAINER: "SHIVA"
     TIMINGS: "7AM TO 10AM"
 
-- name: print course information
   vars_files: # file level variables
     - vars_file.yaml
-    
-- name: variables from args
-  hosts: web
-  become: yes
 
   vars_prompt: # prompt level variables
   - name: COURSE

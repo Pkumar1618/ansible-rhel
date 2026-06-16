@@ -22,12 +22,19 @@
   # - name: TRAINER
   #   prompt: please enter the Trainer name
 
-  tasks:
-  - name: print the information
-    vars: # variable from task level
-      COURSE: "DevOps with AWS"
-      DURATION: "120HRS"
-      TRAINER: "SHIVA"
-      TIMINGS: "7AM TO 10AM"
-    ansible.builtin.debug:
-      msg: "Hi, I am learning {{ COURSE }}, Duration is: {{ DURATION }}, Trainer is: {{ TRAINER }}, Timings is: {{ TIMINGS }}"
+  # tasks:
+  # - name: print the information
+  #   vars: # variable from task level
+  #     COURSE: "DevOps with AWS"
+  #     DURATION: "120HRS"
+  #     TRAINER: "SHIVA"
+  #     TIMINGS: "7AM TO 10AM"
+  #   ansible.builtin.debug:
+  #     msg: "Hi, I am learning {{ COURSE }}, Duration is: {{ DURATION }}, Trainer is: {{ TRAINER }}, Timings is: {{ TIMINGS }}"
+
+
+
+# 1. variable arg
+# 2. prompt
+# 3. task level
+# 4.

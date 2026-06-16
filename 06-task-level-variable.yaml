@@ -19,7 +19,7 @@
       msg: "Hi, I am learning {{ COURSE }}"
 
   tasks:
-  - name: print the information again and again
+  - name: print the information again 
     vars:
       COURSE: "Jenkins"
     ansible.builtin.debug:

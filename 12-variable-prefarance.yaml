@@ -1,13 +1,13 @@
 # using this file checking variable passing through multiple ways but ansible prefering which is first
 
-- name: variables to print
-  hosts: web
-  become: yes
-  vars:  # play level, all tasks should be access to it
-    COURSE: "DevOps with AWS"
-    DURATION: "120HRS"
-    TRAINER: "SHIVA"
-    TIMINGS: "7AM TO 10AM"
+# - name: variables to print
+#   hosts: web
+#   become: yes
+#   vars:  # play level, all tasks should be access to it
+#     COURSE: "DevOps with AWS"
+#     DURATION: "120HRS"
+#     TRAINER: "SHIVA"
+#     TIMINGS: "7AM TO 10AM"
 
   vars_files: # file level variables
     - vars_file.yaml
@@ -37,4 +37,4 @@
 # 1. variable arg
 # 2. prompt
 # 3. task level
-# 4.
+# 4. Play level

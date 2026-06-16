@@ -9,8 +9,8 @@
   #   TRAINER: "SHIVA"
   #   TIMINGS: "7AM TO 10AM"
 
-  vars_files: # file level variables
-    - vars_file.yaml
+  # vars_files: # file level variables
+  #   - vars_file.yaml
 
   # vars_prompt: # prompt level variables
   # - name: COURSE
@@ -38,3 +38,4 @@
 # 2. prompt
 # 3. task level
 # 4. Play level
+# 5. file level

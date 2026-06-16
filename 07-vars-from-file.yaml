@@ -1,7 +1,6 @@
-
 - name: variables from files
   hosts: web
-  became: yes
+  become: yes
   vars_file:
     vars_file.yaml
   tasks: 

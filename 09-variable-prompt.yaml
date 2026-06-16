@@ -1,0 +1,23 @@
+
+# this using for not confidential data like whatever we are entering on terminal it is shows on terminal.
+
+- name: variables from prompt
+  hosts: web
+  become: yes
+  vars_prompt:
+  - name: COURSE
+    prompt: please enter the course name
+    private: false # it means it is not confidential
+  - name: DURATION
+    prompt: please enter the course Duration
+    private: false
+  - name: TIMINGS
+    prompt: please enter the course Timings
+    private: false
+  - name: TRAINER
+    prompt: please enter the course Trainer
+    private: false
+  tasks:
+  - name: print the course information
+    ansible.builtin.debug:
+      msg: "Hi, I am learning {{ COURSE }}, Duration is: {{ DURATION }}, Timings is: {{ TIMINGS }}, Trainer is: {{ TRAINER }}"  

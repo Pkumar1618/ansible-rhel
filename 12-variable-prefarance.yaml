@@ -12,8 +12,8 @@
     TIMINGS: "7AM TO 10AM"
 
 # file level variables
-  vars_files: # file level variables
-    - vars_file.yaml
+  # vars_files: # file level variables
+  #   - vars_file.yaml
 
 # prompt level variables
   vars_prompt: # prompt level variables

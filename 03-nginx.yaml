@@ -5,3 +5,5 @@
     ansible.builtin.package:  # if you mention package it going install any server or if you   mention any prticular server we can mention that particular package module.
       name: nginx
       state: present # it means installed the package 
+
+ 

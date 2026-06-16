@@ -1,5 +1,6 @@
 - name: uninstall the nginx
   hosts: web
+  become: yes # it means sudo access
   tasks:
   - name: nginx uninstall
     ansible.builtin.package:

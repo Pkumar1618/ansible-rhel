@@ -1,0 +1,12 @@
+- name: user create
+  hosts: web
+  become: yes
+  tasks:
+  - name: check the user exist or not
+    ansible.builtin.command: id expense
+    register: USER # what ever outputs get from above command that is keeps in this register.
+    ignore_errors: true # ignore_error means if any error comes ignore errors. and keep running. 
+
+  - name: print the user information
+    ansible.builtin.debug:
+      msg: "user info: {{ USER }}"

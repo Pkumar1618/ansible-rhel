@@ -13,7 +13,7 @@
     - kubernetes
     - docker
     live: true # boolean
-    tools: # map/dictionary nothing but it is a key value pairs.
+    tools: # map/dictionary/object nothing but it is a key value pairs.
       ci: jenkins # string
       cm: ansible
       cloud: AWS

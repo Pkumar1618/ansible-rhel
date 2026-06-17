@@ -48,4 +48,4 @@
         timings: "7am to 10am"
         trainer: "shiva"
     ansible.builtin.debug:
-      msg: "{{ course | list2dict }}"
+      msg: "{{ course | item2dict }}"

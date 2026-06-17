@@ -1,0 +1,122 @@
+{
+  "virtualization_role": "guest",
+  "virtualization_type": "kvm",
+  "virtualization_tech_guest": [
+    "kvm"
+  ],
+  "virtualization_tech_host": [],
+  "lsb": {},
+  "system_capabilities_enforced": false,
+  "system_capabilities": [],
+  "system": "Linux",
+  "kernel": "5.14.0-611.20.1.el9_7.x86_64",
+  "kernel_version": "#1 SMP PREEMPT_DYNAMIC Sat Dec 20 05:11:29 EST 2025",
+  "machine": "x86_64",
+  "python_version": "3.9.25",
+  "fqdn": "ip-172-31-24-197.ec2.internal",
+  "hostname": "ip-172-31-24-197",
+  "nodename": "ip-172-31-24-197.ec2.internal",
+  "domain": "ec2.internal",
+  "userspace_bits": "64",
+  "architecture": "x86_64",
+  "userspace_architecture": "x86_64",
+  "machine_id": "6fd191fd77134c718be4bf9a7362db6a",
+  "user_id": "root",
+  "user_uid": 0,
+  "user_gid": 0,
+  "user_gecos": "root",
+  "user_dir": "/root",
+  "user_shell": "/bin/bash",
+  "real_user_id": 0,
+  "effective_user_id": 0,
+  "real_group_id": 0,
+  "effective_group_id": 0,
+  "distribution": "RedHat",
+  "distribution_release": "Plow",
+  "distribution_version": "9.7",
+  "distribution_major_version": "9",
+  "distribution_file_path": "/etc/redhat-release",
+  "distribution_file_variety": "RedHat",
+  "distribution_file_parsed": true,
+  "distribution_file_search_string": "Red Hat",
+  "os_family": "RedHat",
+  "apparmor": {
+    "status": "disabled"
+  },
+  "fips": true,
+  "dns": {
+    "search": [
+      "ec2.internal"
+    ],
+    "nameservers": [
+      "172.31.0.2"
+    ]
+  },
+  "is_chroot": false,
+  "loadavg": {
+    "1m": 0.0,
+    "5m": 0.0,
+    "15m": 0.0
+  },
+  "selinux_python_present": true,
+  "selinux": {
+    "status": "disabled"
+  },
+  "fibre_channel_wwn": [],
+  "ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDFFLEGuOlL61XR1Bk15aXY7TjvGcL1laZ44h7YG8g6S+QLCfdA75IfvG4AEaRHn8XeuNErxv+euzqypbC6kBYyFaPxcUMzLk0AvKXWHVvI0m568IiiPuRukffrj/qm+mp9IeR3ToEwW1YOdwajXIslPGTUhm1XnjKmJDJh6a+f5kD2zEaVZKGMDDAZ5oYlBoHezoWB+7Q/zuL7l2MWnqhjPxdEwPiviEw7pZ+K3CTpuuC+MFK4e7klgStyMSI9udv1qZzpunzOqXDKxYf81dZpg/hXbfvumX9v8IEB52emr10mWIkg48pX/zC29V11p332/jGSoT+LePIaHmkIHJjW3uENtyaQCtJWGsy3sxlNS/ZkyQuoJbi8ZHCSZwdtUp7x4Btm7ln8ZVNpevVYdWUW5fBqwEUYmlnar4fhdnSXB6+XlAQhLOPFtECjvnhV3+vgWbxdsSCZVOBwn21BZsb4KVhR8pQYTH8uj7dNxmC4ERRaPaw3Gmt+PPN8ah+ewts=",
+  "ssh_host_key_rsa_public_keytype": "ssh-rsa",
+  "ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKOVmoXMMkc9eukZbaWeiwJYKs9D32PFj39ocNmyIZw6SNXnim0hspbq9IlEnFZyq47Dqu32gTlAiFr4zqiVEd8=",
+  "ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
+  "date_time": {
+    "year": "2026",
+    "month": "06",
+    "weekday": "Wednesday",
+    "weekday_number": "3",
+    "weeknumber": "24",
+    "day": "17",
+    "hour": "06",
+    "minute": "24",
+    "second": "16",
+    "epoch": "1781677456",
+    "epoch_int": 1781677456,
+    "date": "2026-06-17",
+    "time": "06:24:16",
+    "iso8601_micro": "2026-06-17T06:24:16.979866Z",
+    "iso8601": "2026-06-17T06:24:16Z",
+    "iso8601_basic": "20260617T062416979866",
+    "iso8601_basic_short": "20260617T062416",
+    "tz": "UTC",
+    "tz_dst": "UTC",
+    "tz_offset": "+0000"
+  },
+  "ansible_local": {},
+  "processor": [
+    "0",
+    "GenuineIntel",
+    "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz",
+    "1",
+    "GenuineIntel",
+    "Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz"
+  ],
+  "processor_count": 1,
+  "processor_cores": 1,
+  "processor_threads_per_core": 2,
+  "processor_vcpus": 2,
+  "processor_nproc": 2,
+  "memtotal_mb": 716,
+  "memfree_mb": 255,
+  "swaptotal_mb": 2047,
+  "swapfree_mb": 2047,
+  "bios_vendor": "Amazon EC2",
+  "system_vendor": "Amazon EC2",
+  "product_name": "t3.micro",
+  "service_mgr": "systemd",
+  "pkg_mgr": "dnf",
+  "gather_subset": [
+    "all"
+  ],
+  "module_setup": true,
+  "discovered_interpreter_python": "/usr/bin/python3",
+  "_ansible_facts_gathered": true
+}
+

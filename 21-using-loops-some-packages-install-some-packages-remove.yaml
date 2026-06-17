@@ -2,7 +2,7 @@
   hosts: web
   become: yes
   tasks:
-  - name: some packages install and some packages remove
+  - name: install some packes and remove the some packages
     ansible.builtin.debug:
       name: "{{ item.name }}"
       state: "{{ item.state }}"

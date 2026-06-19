@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars_files:
-    - vars.yaml
-    
+    - vars.yaml # here created vars for separate file.
+
   tasks:
     - name: create ec2 instance
       amazon.aws.ec2_instance:

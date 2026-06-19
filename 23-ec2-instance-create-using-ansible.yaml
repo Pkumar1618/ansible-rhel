@@ -41,6 +41,7 @@
         overwrite: true
       loop: "{{ ec2_instances.results }}"  # this refers to list.
 
+   
     - name: create the route53 public record for frontend
       amazon.aws.route53:
         state: present
@@ -48,7 +49,7 @@
         record: "{{ item.item }}.{{ zone }}"
         type: A
         ttl: 1
-        value: "{{ item.instance[0].public_ip.address }}" # frontend.daws81.online
+        value: "{{ item.instances[0].public_ip_address }}"
         wait: true
         overwrite: true
       loop: "{{ ec2_instances.results }}"

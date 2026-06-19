@@ -1,0 +1,8 @@
+    subnet_id: subnet-06279b56e282f8eeb # replace with your subnet id
+    sg_id: "sg-015fd38c0c9f467ed"
+    ami_id: "ami-0220d79f3f480ecf5"
+    instances: # this is variable (this is variable is list type)
+    - mysql
+    - backend
+    - frontend
+    zone: daws81.online
